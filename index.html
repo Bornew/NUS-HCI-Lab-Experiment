@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>NUS HCI LAB</title>
+    <!-- Favicon icon -->
+    <!--<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">-->
+    <!-- Custom Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="loader">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="10"/>
+            </svg>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header">
+            <div class="brand-logo">
+                <a href="index.html">
+                    <h4 class="text-white">NUS HCI Lab</h4>
+                </a>
+            </div>
+        </div>
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+
+        <!--**********************************
+            Header start
+        ***********************************-->
+        <div class="header">
+            <div class="header-content clearfix">
+                <div class="nav-control">
+                    <div class="hamburger">
+                        <span class="toggle-icon"><i class="icon-menu"></i></span>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <input type="checkbox" id="lock">
+                    <label for="lock"><i></i></label>
+                    <h4 class="header-label">Send Signal</h4>
+                    <!--<li class="icons dropdown">-->
+                        <!--<a href="javascript:void(0)" data-toggle="dropdown">-->
+                            <!--<i class="mdi mdi-email-outline"></i>-->
+                            <!--<sppan class="badge gradient-1 badge-pill badge-primary">3</sppan>-->
+                        <!--</a>-->
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+
+        <!--**********************************
+            Sidebar start
+        ***********************************-->
+        <div class="nk-sidebar">
+            <div class="nk-nav-scroll">
+                <div class="nk-nav-wrapper">
+                    <div>
+                        <h4 class="nav-label">Feedback Modes</h4></div>
+                        <div class="nav-dropdown">
+                            <div class="menu-dropdown">
+                                <select name="one" class="dropdown-select" id="feedback">
+                                    <!--<option value="">Select…</option>-->
+                                    <option value="1" id="btn_c1"}>ODD-General</option>
+                                    <option value="2" id="btn-c2">ODD-PTT</option>
+                                    <option value="3" id="btn-c3">AOD</option>
+                                    <option value="4" id="btn-c4">AOD-Scroll</option>
+                                    <option value="5" id="btn-c5">Eyes-Free</option>
+                                    <option value="6" id="btn-c6">ODD-Flexi</option>
+                                </select>
+                            </div>
+                        </div>
+                    <div>
+                        <h4 class="nav-label">Training</h4></div>
+                         <div class="nav-dropdown">
+                        <div class="menu-dropdown">
+                            <select name="one" class="dropdown-select" id="training">
+                                <!--<option value="">Select…</option>-->
+                                <option value="1" id="btn-tr1">Train-ODD</option>
+                                <option value="2" id="btn-tr2">Train-AOD</option>
+                                <option value="3" id="btn-tr3">Test-Default</option>
+                                <option value="4" id="btn-tr4">Reading</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="nav-label">Matrix1</h4></div>
+                    <div class="nav-dropdown">
+                        <table id="matrix">
+                            <tbody>
+                            <tr>
+                                <td><button id="b1">C1</button></td>
+                                <td><button id="b2">C2</button></td>
+                                <td><button id="b3">C3</button></td>
+                            </tr>
+                            <tr>
+                                <td><button id="b4">C1</button></td>
+                                <td><button id="b5">C2</button></td>
+                                <td><button id="b6">C3</button></td>
+                            </tr>
+                            <tr>
+                                <td><button id="b7">C1</button></td>
+                                <td><button id="b8">C2</button></td>
+                                <td><button id="b9">C3</button></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                        <h4 class="nav-label">Matrix2</h4></div>
+                    <div class="nav-dropdown">
+                        <table id="matrix2">
+                            <tbody>
+                            <tr>
+                                <td><button id="b10" onClick={logEvent('b10')}>C1</button></td>
+                                <td><button id="b11" onClick={logEvent('b11')}>C2</button></td>
+                                <td><button id="b12">C3</button></td>
+                            </tr>
+                            <tr>
+                                <td><button id="b13">C1</button></td>
+                                <td><button id="b14">C2</button></td>
+                                <td><button id="b15">C3</button></td>
+                            </tr>
+                            <tr>
+                                <td><button id="b16">C1</button></td>
+                                <td><button id="b17">C2</button></td>
+                                <td><button id="b18">C3</button></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="nav-dropdown">
+                        <canvas id="displayBox"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Sidebar end
+        ***********************************-->
+
+        <!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body">
+
+            <!--<div class="row page-titles mx-0">-->
+            <!---->
+            <!--</div>-->
+            <!-- row -->
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="col p-md-0">
+                                    <h4 class="title">Text Showing</h4>
+                                </div>
+                                <div class="form-group">
+                                    <div id="editor"></div>
+                                    <!--<textarea class="textarea_editor form-control bg-light" rows="15"-->
+                                              <!--&gt;</textarea>-->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card2">
+                            <div class="card-body">
+                                <div class="card-lock">
+                                    <h4 class="title">Microphone</h4>
+                                    <input id="mic" type="checkbox" checked/><label for="mic"></label>
+                                    <!--<label><input class="mui-switch mui-switch-animbg" type="checkbox" checked></label>-->
+                                </div>
+
+                                <div class="card-body-recognized">
+                                    <div class="display: flex; padding: 0 1px 0 0" ><h4 class="title">Recognized:</h4></div>
+                                    <input class="card-input" id="currentTranscript"></input>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- #/ container -->
+        </div>
+    </div>
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <script src="plugins/common/common.min.js"></script>
+    <script src="js/custom.min.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/gleek.js"></script>
+    <script src="js/styleSwitcher.js"></script>
+    <script src="js/quill.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script>
+        logEvent = (e)=>{
+          console.log(e);
+        }
+    </script>
+    <script>
+      (function($) {
+        'use strict';
+
+        new quixSettings({
+          version: 'light', //2 options "light" and "dark"
+          layout: 'vertical', //2 options, "vertical" and "horizontal"
+          navheaderBg: 'color_1', //have 10 options, "color_1" to "color_10"
+          headerBg: 'color_1', //have 10 options, "color_1" to "color_10"
+          sidebarStyle: 'full', //defines how sidebar should look like, options are: "full", "compact", "mini" and "overlay". If layout is "horizontal", sidebarStyle won't take "overlay" argument anymore, this will turn into "full" automatically!
+          sidebarBg: 'color_1', //have 10 options, "color_1" to "color_10"
+          sidebarPosition: 'fixed', //have two options, "static" and "fixed"
+          headerPosition: 'static', //have two options, "static" and "fixed"
+          containerLayout: 'wide',  //"boxed" and  "wide". If layout "vertical" and containerLayout "boxed", sidebarStyle will automatically turn into "overlay".
+          direction: 'ltr', //"ltr" = Left to Right; "rtl" = Right to Left
+        });
+
+      })(jQuery);
+    </script>
+
+</body>
+
+</html>
