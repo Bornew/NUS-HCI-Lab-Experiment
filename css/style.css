@@ -73,11 +73,11 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 }
 
 .menu-dropdown {
-
 }
 
 .dropdown-select {
   background: #7571f9;
+  box-shadow: none;
   border-radius: 3px;
   outline: none;
   border: 0;
@@ -11328,6 +11328,7 @@ sub {
 }
 
 .nav-control {
+  background: #000;
   cursor: pointer;
   position: absolute;
   left: 1.4375rem;
@@ -11426,6 +11427,11 @@ sub {
 
 .header .header-content {
   height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 15px;
 }
 
 @media (max-width: 767px) {
@@ -11929,6 +11935,12 @@ svg.pulse-svg .third-circle {
   animation-delay: 2s;
 }
 
+.header-controller {
+  display: flex;
+  width: 100px;
+  height: 30px;
+  /*background: red;*/
+}
 .header-right {
   display: flex;
   flex-direction: row-reverse;
@@ -12238,6 +12250,9 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 }
 .button-selected {
   border: #7571f9 2px solid !important;
+  background: #7571F9 !important;
+  color: white;
+  /*box-shadow: -2px 3px 3px 0 rgba(50,44,255,0.50) !important;*/
 }
 #b10 {
   background-color: #C2E4FD;
@@ -12518,6 +12533,8 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   }
 
   .header-content {
+    display: flex;
+    flex-direction: row;
     margin-left: 3.75rem;
   }
 }

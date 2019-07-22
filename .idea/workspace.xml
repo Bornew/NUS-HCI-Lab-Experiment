@@ -19,6 +19,7 @@
       <change beforePath="$PROJECT_DIR$/images/logo-white.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/images/logo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/images/paypal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/dashboard/dashboard-1.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/plugins-init/amchart-init.js" beforeDir="false" />
@@ -101,6 +102,7 @@
       <change beforePath="$PROJECT_DIR$/js/plugins-init/sweetalert.init.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/js/plugins-init/switchery-init.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/js/plugins-init/toastr.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/quill.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/quill.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plugins/amcharts/amcharts.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/plugins/amcharts/ammap.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/plugins/amcharts/amstock.js" beforeDir="false" />
@@ -4706,23 +4708,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="web-forms.rnc" pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/web-forms.rnc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="321" column="16" selection-start-line="321" selection-start-column="16" selection-end-line="321" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="194" column="55" lean-forward="true" selection-start-line="194" selection-start-column="55" selection-end-line="194" selection-end-column="55" />
-              <folding>
-                <element signature="n#div#4;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="169">
+              <caret line="60" column="53" lean-forward="true" selection-start-line="60" selection-start-column="53" selection-end-line="60" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -4730,17 +4720,17 @@
       <file leaf-file-name="quill.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/quill.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="53" lean-forward="true" selection-start-column="53" selection-end-column="53" />
+            <state relative-caret-position="93">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="150" column="16" lean-forward="true" selection-start-line="150" selection-start-column="16" selection-end-line="150" selection-end-column="16" />
+            <state relative-caret-position="373">
+              <caret line="144" column="29" lean-forward="true" selection-start-line="144" selection-start-column="29" selection-end-line="144" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -4757,8 +4747,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="12238" column="1" selection-start-line="12238" selection-start-column="1" selection-end-line="12238" selection-end-column="1" />
+            <state relative-caret-position="358">
+              <caret line="11941" column="22" lean-forward="true" selection-start-line="11941" selection-start-column="22" selection-end-line="11941" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -4767,12 +4757,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>page-tit</find>
-      <find>Mark as</find>
-      <find>875em</find>
-      <find>.card</find>
-      <find>form-group</find>
-      <find>card</find>
       <find>form-control`</find>
       <find>page-title</find>
       <find>100%</find>
@@ -4788,7 +4772,6 @@
       <find>hidden</find>
       <find>#lock</find>
       <find>matrix</find>
-      <find>send</find>
       <find>mic</find>
       <find>quill</find>
       <find>editor</find>
@@ -4796,7 +4779,14 @@
       <find>b1  :focus</find>
       <find>brand-logo</find>
       <find>nk-sidebar</find>
+      <find>dropdown-select</find>
       <find>width: 3.75rem</find>
+      <find>hamburger</find>
+      <find>-select</find>
+      <find>send</find>
+      <find>signal</find>
+      <find>displayBox</find>
+      <find>lock</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -4809,11 +4799,11 @@
         <option value="$PROJECT_DIR$/blank.html" />
         <option value="$PROJECT_DIR$/js/gleek.js" />
         <option value="$PROJECT_DIR$/plugins/bootstrap/scss/_card.scss" />
-        <option value="$PROJECT_DIR$/js/quill.js" />
         <option value="$PROJECT_DIR$/layout-fixed-sidebar.html" />
+        <option value="$PROJECT_DIR$/js/quill.js" />
+        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -4834,7 +4824,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
@@ -4919,7 +4909,7 @@
       <option name="presentableId" value="Default" />
       <updated>1563509491812</updated>
       <workItem from="1563509494015" duration="15454000" />
-      <workItem from="1563564451025" duration="29258000" />
+      <workItem from="1563564451025" duration="33309000" />
     </task>
     <task id="LOCAL-00001" summary="Add the main.js">
       <created>1563768120538</created>
@@ -4932,13 +4922,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44712000" />
+    <option name="totallyTimeSpent" value="48763000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15237421" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15237421" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32908162" />
@@ -4946,7 +4936,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.20433018" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -4998,9 +4988,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6603">
           <caret line="213" column="119" selection-start-line="213" selection-start-column="119" selection-end-line="213" selection-end-column="119" />
-          <folding>
-            <element signature="n#div#4;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -5183,13 +5170,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/quill.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="53" lean-forward="true" selection-start-column="53" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/styleSwitcher.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2116">
@@ -5207,25 +5187,15 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/web-forms.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="321" column="16" selection-start-line="321" selection-start-column="16" selection-end-line="321" selection-end-column="16" />
+        <state relative-caret-position="1646">
+          <caret line="503" column="16" selection-start-line="503" selection-start-column="16" selection-end-line="503" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/quill.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="194" column="55" lean-forward="true" selection-start-line="194" selection-start-column="55" selection-end-line="194" selection-end-column="55" />
-          <folding>
-            <element signature="n#div#4;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="12238" column="1" selection-start-line="12238" selection-start-column="1" selection-end-line="12238" selection-end-column="1" />
+        <state relative-caret-position="93">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -5238,8 +5208,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="150" column="16" lean-forward="true" selection-start-line="150" selection-start-column="16" selection-end-line="150" selection-end-column="16" />
+        <state relative-caret-position="373">
+          <caret line="144" column="29" lean-forward="true" selection-start-line="144" selection-start-column="29" selection-end-line="144" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="11941" column="22" lean-forward="true" selection-start-line="11941" selection-start-column="22" selection-end-line="11941" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="60" column="53" lean-forward="true" selection-start-line="60" selection-start-column="53" selection-end-line="60" selection-end-column="53" />
         </state>
       </provider>
     </entry>
